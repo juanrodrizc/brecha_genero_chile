@@ -86,7 +86,7 @@ over_theme = {'txc_inactive': '#FFFFFF', 'menu_background':'#68BAE3', 'txc_activ
 
 # -------- ---Creación del Menú ---------------
 menu_id = hc.nav_bar(menu_definition = menu_data, home_name = 'Inicio', override_theme = over_theme, 
-                     hide_streamlit_markers = False, use_animation = True)
+                     use_animation = True, sticky_mode = 'pinned')
 
 
 # -------- Agregar Color a Background de la Página -----------
